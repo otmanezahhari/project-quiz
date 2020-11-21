@@ -1,0 +1,61 @@
+/*Style Information Scora + Number Of question Player Name */
+
+.information-game-content{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  border: 4px solid rgb(33, 154, 175);
+  padding: 20px;
+  margin: 3rem auto;
+}
+
+.information-game-content h3{
+  font-weight: 900;
+  color: rgb(16, 14, 27);
+  font-size: 1.8rem;
+}
+.information-game-content h3 span {
+  color: #56a5eb;
+}
+
+/* Style Choice Qestion */
+.choice-container {
+  display: flex;
+  width: 90%;
+  margin:0 auto 0.8rem auto;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
+}
+#question{
+  width: 90%;
+  margin: 0 auto 2.4rem auto;
+  font-weight: 500;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+  
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.goodAnswer{
+  background-color: rgb(42, 233, 42);
+}
+.notGood{
+  background-color: rgb(212, 58, 58);
+}
